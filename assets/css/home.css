@@ -11,7 +11,6 @@
     margin-top: 5%;
     margin-bottom: 100px;
 }
-
 .container .h-name h1 {
     font-family: 'Oswald', sans-serif;
     font-weight: bold;
@@ -19,7 +18,6 @@
     text-transform: uppercase;
     color: #232323;
 }
-
 .container .h-name h2 {
     font-family: 'Oswald', sans-serif;
     font-weight: bold;
@@ -35,14 +33,12 @@
     min-height: 100px;
     margin-bottom: 100px;
 }
-
 .container .h-sobre .h-title-sobre {
     width: 100%;
     height: 50px;
     border-bottom: 2px solid #00E0FF;
     margin-bottom: 25px;
 }
-
 .container .h-sobre .h-title-sobre h2{
     margin-top: 5%;
     font-family: 'Oswald', sans-serif;
@@ -51,7 +47,6 @@
     text-transform: uppercase;
     color: #000000;
 }
-
 .container .h-sobre .paragraf {
     font-family: 'Oswald', sans-serif;
     font-weight: normal;
@@ -60,3 +55,72 @@
 }
 
 /*************************************** EXPERIÊNCIA ************************************** */
+
+.container .h-experiencia .h-title-experiencia {
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid #00E0FF;
+    margin-bottom: 50px;
+}
+.container .h-experiencia .h-title-experiencia h2{
+    margin-top: 5%;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.container .h-experiencia .h-itens {
+    width: 100%;
+    min-height: 100px;
+}
+.container .h-experiencia .h-itens .item {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 220px;
+}
+/* NOME EMPRESA EXPERIENCIA */
+.container .h-experiencia .h-itens .item .work {
+    min-width: 25%;
+    max-width: 25%;
+    min-height: 100px;
+}
+.container .h-experiencia .h-itens .item .work h2 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.container .h-experiencia .h-itens .item .work p{
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+    font-size: 22px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: #000000;
+}
+/* DETALHES EXPERIENCIAS */
+.container .h-experiencia .h-itens .item .description {
+    width: 75%;
+    min-height: 100px;
+}
+.container .h-experiencia .h-itens .item .description h2{
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: #00E0FF;
+}
+.container .h-experiencia .h-itens .item .description p{
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: justify;
+    color: #000000;
+}
+/* DETALHES EDUCACAO */
+/* 12 MINUTOS */
