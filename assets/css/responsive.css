@@ -75,9 +75,27 @@
     .container .h-educacao .item .title span {
         font-size: 22px;
     }
+/* Habilidades ***************************************** */
+    .container .h-habilidades .h-title-habilidades h2 {
+        margin-top: 5%;
+        font-size: 22px;
+    }
+    .container .h-habilidades .item {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+/* Contato ***************************************** */
+    .container .h-contato .h-title-contato h2 {
+        margin-top: 5%;
+        font-size: 22px;
+    }
+}
+/* FIM MOBILE 425px */
 
-
-
+/* MOBILE 375px */
+@media screen and (max-width: 375px) {
 
 }
-
